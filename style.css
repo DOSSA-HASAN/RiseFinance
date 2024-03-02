@@ -1,0 +1,421 @@
+*{
+    margin: 0;
+    color: white;
+}
+
+body{
+    background-color: #121139;
+}
+
+
+
+
+
+
+.object-contain{
+    object-fit: contain;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.align-center{
+    align-items: center;
+}
+
+header{
+    margin: 30px 20px 0 20px;
+}
+
+.menu a{
+    padding: 0 30px 0 30px;
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.margin-auto{
+    max-width: 1200px; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.hero{
+    font-size: 99px;
+    background: -webkit-linear-gradient(263deg, #9130F4 21%, #4646F9 78%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.font-90{
+    font-size: 90px;
+}
+
+.text-white{
+    color: #fff;
+}
+
+
+.width-650{
+    width: 650px;
+}
+
+.font-20{
+    font-size: 20px;
+}
+
+.width-450{
+    width: 450px;
+}
+
+.padding-top-25{
+    padding-top: 25px;
+}
+
+.hero-button{
+    text-transform: uppercase;
+    font-size: 13px;
+    padding: 15px 45px ;
+    color: #fff;
+    border: 3px solid;
+    border-image: linear-gradient(263deg, #9130F4 21%, #4646F9 78%);
+    border-image-slice: 1;
+    margin-top: 30px;
+    background-color: transparent;
+}
+
+.pos-relative{
+    position: relative;
+}
+
+.padding-left-20{
+    padding-left: 20px;
+}
+
+.top-50{
+    top: 70px;
+}
+
+.font-14-opacity{
+    font-size: 14px;
+    opacity: 0.6;
+}
+
+.font-28{
+    font-size: 28px;
+}
+
+
+.credit-card{
+    position: relative;
+    background: linear-gradient(177deg, #CC51BF -14%, #3A49F9 109%);
+    width: 500px;
+    height: 250px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.box-shadow{
+    box-shadow: 0px 0px 70px #9130F4;
+}
+
+.padding-30{
+    padding: 30px 30px;
+}
+
+.credit-card::before,
+.credit-card::after {
+    position: absolute;
+    content: '';
+    height: 500px;
+    width: 500px;
+    background-color: black;
+    border-radius: 50%;
+    opacity: .2;
+}
+
+.credit-card::before{
+    top: -350px;
+    right: -200px;
+}
+
+.credit-card::after{
+    left: -200px;
+    bottom: -400px;
+}
+
+.flex-col{
+    flex-direction: column;
+}
+
+.font-12-opacity{
+    font-size: 12px;
+    opacity: 0.6;
+}
+
+.font-13{
+    font-size: 13px;
+}
+
+.chip{
+    width: 65px; width: 40px; object-fit: contain;
+}
+
+.debit-card{
+    position: relative;
+    width: 150px; 
+    height: 180px; 
+    padding: 25px; 
+    border-radius: 25px;
+    background: linear-gradient(177.23deg, #CC51BF -13.49%, #3A49F9 109.75%);
+    top: -130px;
+    right: -350px;
+    overflow: hidden;
+}
+
+.debit-card::before,
+.debit-card::after{
+    position: absolute;
+    content: '';
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    border-radius: 50%;
+    opacity: .2;
+}
+
+.debit-card::before{
+    top: -170px;
+    right: -200px;
+}
+
+.debit-card::after{
+    bottom: -170px;
+    left: -200px;
+}
+
+.padding-top-70{
+    padding-top: 75px;
+}
+
+.padding-bottom-100{
+    padding-bottom: 100px;
+}
+
+.background-white{
+    background-color: #F4F4F4;
+}
+
+.font-50-background-linear{
+    font-size: 50px;
+    background: -webkit-linear-gradient(263deg, #9130F4 21%, #4646F9 78%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.text-align-center{
+    text-align: center;
+}
+
+.width-700{
+    width: 700px;
+}
+
+.font-25{
+    font-size: 25px;
+}
+
+.width-350{
+    width: 350px;
+}
+
+
+
+.padding-{
+    padding: 70px 30px 30px 30px;
+}
+
+.graph{
+    box-shadow: 0px 0px 70px #9130F4;
+    border-radius: 10px; 
+    padding: 20px 30px 20px 20px; 
+    background: #121139; 
+    margin-top: 50px;
+    width: 800px;
+}
+
+.width-550{
+    width: 550px;
+}
+
+.box-container{
+    width: 300px;
+    padding: 10px; 
+    border-radius: 15px;
+    position: relative;
+    left: 90px;
+    top: 100px;
+}
+
+.padding-20-10{
+    padding: 20px 10px;
+}
+
+.list{
+    position: relative;
+    left: -80px;
+}
+
+.list ::marker{
+    color: #443FCE;
+}
+
+.font-30{
+    font-size: 30px;
+}
+
+.padding-top-bottom-30{
+    padding: 15px 0;
+}
+
+.width-460{
+    width: 460px;
+}
+
+.border-color {
+    border: 3px solid #9130F4;
+    border-radius: 30px;
+}
+
+.padding-10-20{
+    padding: 10px 20px;
+}
+
+
+.positioning{
+    width: min-content; 
+    text-align: center;
+
+}
+
+.font-90-linear{
+    font-size: 90px;
+    background: -webkit-linear-gradient(263deg, #9130F4 21%, #4646F9 78%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.case-study-section{
+    background: #15123E;
+    width: 700px;
+}
+
+.font-30{
+    font-size: 30px;
+}
+
+.padding-top-50-bottom-10{
+    padding: 50px 0 10px 0;
+}
+
+.rotate-logo{
+    transform: rotate(90deg); 
+    width: 500px;
+    position:relative; 
+    right: 150px; 
+    margin-top: auto; 
+    margin-bottom: auto;
+}
+
+/*insert phone code*/
+
+.right-100{
+    right: 100px;
+}
+
+.width-300-height-550{
+    width: 300px;
+    height: 550px;
+}
+
+.padding-l-r-10{
+    padding: 0 10px;
+}
+
+.padding-top-10{
+    padding-top: 10px;
+}
+
+.padding-top-20{
+    padding-top: 20px;
+}
+
+.tab-content{
+    background-color: #243B53;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.benefit{
+    width: 250px;
+    margin-top: 25px;
+    padding: 30px 50px;
+    background-color: #1C1A50;
+    border-radius: 25px;
+
+}
+
+.top-right{
+    position: relative;
+    left: 400px;
+    bottom: 500px;
+}
+
+.bottom-right{
+    position:relative;
+    left: 400px;
+    bottom: 350px;
+}
+
+.left-center{
+    position: relative;
+    right: 150px;
+    bottom: 450px;
+}
+
+.width-min{
+    width: min-content;
+}
+
+.footer-img{
+    width: 350px; 
+    padding-bottom: 20px;
+}
+
+footer a{
+    text-decoration: none;
+    padding-top: 10px;
+}
+
+
+
+.footer-grid{
+    display: grid;
+    grid-template-columns: repeat(5, minmax(200px, 1fr));
+    
+}
+
+
+

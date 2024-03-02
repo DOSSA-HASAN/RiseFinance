@@ -8,10 +8,6 @@ body{
 }
 
 
-
-
-
-
 .object-contain{
     object-fit: contain;
 }
@@ -36,7 +32,6 @@ header{
     padding: 0 30px 0 30px;
     text-decoration: none;
     color: #fff;
-
 }
 
 .margin-auto{
@@ -60,7 +55,6 @@ header{
 .text-white{
     color: #fff;
 }
-
 
 .width-650{
     width: 650px;
@@ -408,8 +402,6 @@ footer a{
     text-decoration: none;
     padding-top: 10px;
 }
-
-
 
 .footer-grid{
     display: grid;

@@ -1,4 +1,8 @@
 # RiseFinance
+
+![rise-finance-mock-up](https://github.com/DOSSA-HASAN/RiseFinance/assets/161303408/03102bc0-bd6d-4aff-a2d3-06d9690a7b3b)
+
+
 # RiseFinance Bank Website Design
 
 Welcome to the RiseFinance Bank Website Design project! This repository showcases a visually appealing design concept for a bank website, meticulously crafted using HTML and CSS.
